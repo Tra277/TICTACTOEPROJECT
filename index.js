@@ -28,7 +28,7 @@ document.getElementById("reset-btn").onclick = function () {
         block.textContent = "";
     });
 }
-
+//check after each turn player has won or not.
 function checkWinner() {
     let arrayOfPlayerIndex = blocks.map(((block, index) => {
         if (block.textContent == playerTurn) return index;
